@@ -180,33 +180,197 @@
     <!----------------------------------------------------------------
                      SideNav ENDS  here
     ----------------------------------------------------------------->
+      
+                    <!--------------------------------------------------------------------
+                            edith Post Starts Here
+                      ------------------------------------------------------ -->
         <div id="layoutSidenav_content">
             <main>
                 <div class="container-fluid px-4">
-                    <h1 class="mt-4">Resources</h1>
+                    <h1 class="mt-4">Partners  </h1>
                     <ol class="breadcrumb mb-4">
-                        <li class="breadcrumb-item active">List Of Events</li>
-                    </ol>
-                    <div class="row">
-                     
 
+                        <li class="breadcrumb-item active">List of Partners </li>
+                    </ol>
+                    <div class="card mb-4">
                     </div>
-                </div>
-            </main>
-            <footer class="py-4 bg- mt-auto bg-dark">
-                <div class="container-fluid px-4">
-                    <div class="d-flex align-items-center justify-content-between small">
-                        <div class="text-muted">Copyright &copy; Your Website 2022</div>
-                        <div>
-                            <a href="#">Privacy Policy</a>
-                            &middot;
-                            <a href="#">Terms &amp; Conditions</a>
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <i class="fas fa-table me-1"></i>
+                            List of our Partners 
+                        </div>
+                        <div class="card-body">
+                            <table id="datatablesSimple">
+                                <thead>
+                                    <tr>
+                                        <th cospan="2">Name</th>
+                                        <th cospan="2">Position</th>
+                                        
+
+                                        <th colspan="2"> </th>
+                                    </tr>
+                                </thead>
+                                <thead>
+                                    <tr>
+                                        <th cospan="2">Photo of Partners</th>
+                                 <th cospan="2">Partners Catepartner</th>
+                          
+
+                                        <th colspan="2"></th>
+                                    </tr>
+                                </thead>
+                                <tfoot>
+                                    <tr>
+                                        <th cospan="2">Name</th>
+                                        <th cospan="2">Position</th>
+                                      
+                                        <th colspan="2"> </th>
+                                    </tr>
+                                </tfoot>
+                                <tfoot>
+                                    <tr>
+                                        <th cospan="2">Photo of Partners</th>
+                                       <th cospan="2">Partners Catepartner</th>
+                       
+                                        <th colspan="2"></th>
+                                    </tr>
+                                </tfoot>
+                                <tbody>
+                                    <tr>
+                                        <td> photo.png photo.png</td>
+                                        <td>System Architect</td>
+                                       
+                                        <td><button type="button" class="btn btn-danger"  data-bs-target="#delete" data-bs-toggle="modal">Delete Partner</button></td>
+                                        <td><button type="button" class="btn btn-success" data-bs-target="#exampleModal" data-bs-toggle="modal">Edith Partner </button></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>photo.png  photo.png</td>
+                                      
+                                        <td>Lorem, ipsum dolor sit amet consectetur......<br>
+                                            Lorem, ipsum dolor sit amet consectetur..
+                                        </td>
+                                        <td><button type="button" class="btn btn-danger"  data-bs-target="#delete" data-bs-toggle="modal">Delete Partner</button></td>
+                                        <td><button type="button" class="btn btn-success" data-bs-target="#exampleModal" data-bs-toggle="modal">Edith Partner </button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>photo.jpge </td>
+                                   
+                                        <td>Lorem, ipsum dolor sit amet consectetur...... <br>
+                                            Lorem, ipsum dolor sit amet consectetur......
+                                        </td>
+                                        <td><button type="button" class="btn btn-danger"  data-bs-target="#delete" data-bs-toggle="modal">Delete Partner</button></td>
+                                        <td><button type="button" class="btn btn-success" data-bs-target="#exampleModal" data-bs-toggle="modal">Edith Partner </button></td>
+
+                               
+                                     </tr>
+                                    <tr>
+                                        <td>photo.jpge photo.png</td>
+                                      
+                                        <td>Lorem, ipsum dolor sit amet consectetur......</td>
+                                        <td><button type="button" class="btn btn-danger"  data-bs-target="#delete" data-bs-toggle="modal">Delete Partner</button></td>
+                                        <td><button type="button" class="btn btn-success" data-bs-target="#exampleModal" data-bs-toggle="modal">Edith Partner </button></td>
+                                    </tr>
+
+
+                                    
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
-            </footer>
+            </main>
         </div>
+
+        <!--------------------------------------------------------------------
+                        edith Post end Here
+         ------------------------------------------------------ -->
     </div>
+
+        <!------------------------------------------------
+            Modal  starts Here
+        ---------------------------------------------------------->
+             <div class="modal fade" id="exampleModal" tabindex="-1"
+             aria-labelledby="exampleModalLabel" aria-hidden="true">
+             <div class="modal-dialog modal-dialog-centered">
+                 <div class="modal-content">
+                     <div class="modal-header">
+                         <h5 class="modal-title" id="exampleModalLabel">Edith Partners </h5>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal"
+                             aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body">
+                        <div class="row  justify-content-center align-item-center d-flex">
+                            <div >
+                                
+                                            <form type="submit">
+                                                <select class="form-select" 
+                                                    aria-label="Default select example">
+                                                   
+                                                    <option selected>All</option>
+                                                    <option value="1">Accounting</option>
+                                                    <option value="2">Banking</option>
+                                                    <option value="3">Branding</option>
+                                                    <option value="4">Female Initiatives</option>
+                                                    <option value="5">Human Resources</option>
+                                                    <option value="6">Legal</option>
+                                                    <option value="7">Media</option>
+                                                    <option value="8">Strategic</option>
+                                                    <option value="9">Technical</option>
+                                                </select>
+            
+                                                <div class="mb-4 pt-4">
+                                                    <label for="formFile" class="form-label">Founders Photo</label>
+                                                    <input class="form-control" type="file" id="formFile">
+                                                  </div>
+                                            </form>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary"
+                             data-bs-dismiss="modal">Close</button>
+                         <button type="button" class="btn btn-primary">Save
+                             changes</button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+
+           <!------------------------------------------------
+             edith Modal  end Here
+        ---------------------------------------------------------->
+
+
+
+
+
+
+      <!------------------------------------------------
+             delete Modal  starts Here
+    ---------------------------------------------------------->
+<div class="modal fade" id="delete" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h5>Are You Sure You Want To Delete </h5>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger">Yes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+      <!------------------------------------------------
+             delete Modal  starts Here
+    ---------------------------------------------------------->
 
 
 

@@ -147,7 +147,7 @@
                             <nav class="sb-sidenav-menu-nested nav">
                                 <a class="nav-link" href="createpost.html">Create Post</a>
                                 <a class="nav-link" href="listofpost.html">List of Post</a>
-                                <a class="nav-link" href="podcast.html">PodCast</a>
+                              
                                 <!-- <a class="nav-link" href="layout-sidenav-light.html">List of Post</a> -->
                             </nav>
                         </div>
@@ -182,33 +182,229 @@
     <!----------------------------------------------------------------
                      SideNav ENDS  here
     ----------------------------------------------------------------->
-        <div id="layoutSidenav_content">
-            <main>
-                <div class="container-fluid px-4">
-                    <h1 class="mt-4">Resources</h1>
-                    <ol class="breadcrumb mb-4">
-                        <li class="breadcrumb-item active">List Of Events</li>
-                    </ol>
-                    <div class="row">
-                     
+    <div id="layoutSidenav_content">
+        <main>
+            <div class="container-fluid px-4">
+                <h1 class="mt-4">CreateEvent  </h1>
+                <ol class="breadcrumb mb-4">
 
+                    <li class="breadcrumb-item active">List of Event </li>
+                </ol>
+                <div class="card mb-4">
+                </div>
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <i class="fas fa-table me-1"></i>
+                       Events List
+                    </div>
+                    <div class="card-body">
+                        <table id="datatablesSimple">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                    <th>Office</th>
+                                    <th>Age</th>
+                                    <th>Age</th>
+
+                                    <th colspan="2"></th>
+                                </tr>
+                            </thead>
+                            <thead>
+                                <tr>
+                                    <th>Event Tile</th>
+                                    <th>Short Discription</th>
+                                    <th>Event Banner</th>
+                                    <th>speaker</th>
+                                    <th>Event Discription</th>
+
+                                    <th colspan="2"></th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                    <th>Office</th>
+                                    <th>Age</th>
+                                    <th>Age</th>
+                                    <th colspan="2"></th>
+                                </tr>
+                            </tfoot>
+                            <tfoot>
+                                <tr>
+                                    <th>Event Tile</th>
+                                    <th>Short Discription</th>
+                                    <th>Event Banner</th>
+                                    <th>speaker</th>
+                                    <th>Event Discription</th>
+                                    <th colspan="2"></th>
+                                </tr>
+                            </tfoot>
+                            <tbody>
+                                <tr>
+                                    <td>How to make more online</td>
+                                    <td>System Architect</td>
+                                    <td>Photo.jpege</td>
+                                    <td>Cfounder, StoreLoad</td>
+                                    <td>Lorem, ipsum dolor sit amet consectetur......</td>
+                                    <td><button type="button" class="btn btn-danger"  data-bs-target="#delete" data-bs-toggle="modal">Delete Post</button></td>
+                                    <td><button type="button" class="btn btn-success" data-bs-target="#exampleModal" data-bs-toggle="modal">Edith Post </button></td>
+                                </tr>
+
+                                <tr>
+                                    <td>How to make more online</td>
+                                    <td>Regional Director</td>
+                                    <td>Photo.jpege</td>
+                                    <td>Co-founder,Load</td>
+                                    <td>Lorem, ipsum dolor sit amet consectetur......<br>
+                                        Lorem, ipsum dolor sit amet consectetur..
+                                    </td>
+                                    <td><button type="button" class="btn btn-danger"  data-bs-target="#delete" data-bs-toggle="modal">Delete Post</button></td>
+                                    <td><button type="button" class="btn btn-success" data-bs-target="#exampleModal" data-bs-toggle="modal">Edith Post </button></td>
+                                </tr>
+                                <tr>
+                                    <td>How to make more online</td>
+                                    <td>Javascript Developer</td>
+                                    <td>Photo.jpege</td>
+                                    <td>Pappybots</td>
+                                    <td>Lorem, ipsum dolor sit amet consectetur.....
+                                      
+                                    </td>
+                                    <td><button type="button" class="btn btn-danger"  data-bs-target="#delete" data-bs-toggle="modal">Delete Post</button></td>
+                                    <td><button type="button" class="btn btn-success" data-bs-target="#exampleModal" data-bs-toggle="modal">Edith Post </button></td>
+
+                           
+                                </tr>
+                                <tr>
+                                    <td>How to make more online</td>
+                                    <td>Customer Support</td>
+                                    <td>Photo.jpege</td>
+                                    <td>Co-founder, StoreLoad</td>
+                                    <td>Lorem, ipsum dolor sit amet consectetur......</td>
+                                    <td><button type="button" class="btn btn-danger"  data-bs-target="#delete" data-bs-toggle="modal">Delete Post</button></td>
+                                    <td><button type="button" class="btn btn-success" data-bs-target="#exampleModal" data-bs-toggle="modal">Edith Post </button></td>
+                                </tr>
+
+
+                                <tr>
+                                    <td>How to make more online</td>
+                                    <td>Regional Director</td>
+                                    <td>Photo.jpege</td>
+                                    <td>CEO, SabiTeach</td>
+                                    <td>Lorem, ipsum dolor sit amet consectetur......
+
+                                    </td>
+                                    <td><button type="button" class="btn btn-danger">Delete Post</button></td>
+                                    <td><button type="button" class="btn btn-success">Edith Post </button></td>
+                                </tr>
+                               
+                            </tbody>
+                        </table>
                     </div>
                 </div>
-            </main>
-            <footer class="py-4 bg- mt-auto bg-dark">
-                <div class="container-fluid px-4">
-                    <div class="d-flex align-items-center justify-content-between small">
-                        <div class="text-muted">Copyright &copy; Your Website 2022</div>
-                        <div>
-                            <a href="#">Privacy Policy</a>
-                            &middot;
-                            <a href="#">Terms &amp; Conditions</a>
+            </div>
+        </main>
+    </div>
+
+    <!--------------------------------------------------------------------
+                    edith Post end Here
+     ------------------------------------------------------ -->
+</div>
+
+    <!------------------------------------------------
+        Modal  starts Here
+    ---------------------------------------------------------->
+         <div class="modal fade" id="exampleModal" tabindex="-1"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalLabel">Edith Founders </h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal"
+                         aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body">
+                    <div class="row  justify-content-center align-item-center d-flex">
+                        <div >
+                            <form  style=" display:flex; gap:0.8rem; flex-direction:column" >
+                                <div class="mb-1">
+                                    <label for="formFile" class="form-label">Event Title </label>
+                                    <input class="form-control" type="text" id="eventtitle" placeholder="Enter title of the event">
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Short Discription</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                 </div>
+                                 <div class="mb-3">
+                                    <label for="formFile" class="form-label">Event Bannaer</label>
+                                    <input class="form-control" type="file" id="formFile">
+                                  </div>
+                                 <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Show short description on event banner
+                                    </label>
+                                  </div>
+                                <div class="mb-3">
+                                  <label for="exampleInputPassword1" class="form-label">Speakers</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Event description</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                  </div>
+                             
+                                <button type="submit" class="btn btn-primary pb-2 bg-success">Create Event</button>
+                         </form>
                         </div>
                     </div>
-                </div>
-            </footer>
-        </div>
+                 </div>
+                 <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary"
+                         data-bs-dismiss="modal">Close</button>
+                     <button type="button" class="btn btn-primary">Save
+                         changes</button>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+       <!------------------------------------------------
+         edith Modal  end Here
+    ---------------------------------------------------------->
+
+
+
+
+
+
+  <!------------------------------------------------
+         delete Modal  starts Here
+---------------------------------------------------------->
+<div class="modal fade" id="delete" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
     </div>
+    <div class="modal-body">
+      <h5>Are You Sure You Want To Delete </h5>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-danger">Yes</button>
+    </div>
+  </div>
+</div>
+</div>
+
+
+  <!------------------------------------------------
+         delete Modal  starts Here
+---------------------------------------------------------->
+
 
 
 
