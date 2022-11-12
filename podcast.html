@@ -49,14 +49,14 @@
                 </ul>
             </li>
         </ul>
-    </nav> 
+    </nav>
     <!----------------------------------------------------------
         Navbar ends Here 
     ------------------------------------------------->
 
 
-    
-       <!----------------------------------------------------------------
+
+    <!----------------------------------------------------------------
                      SideNav Starts here
     ----------------------------------------------------------------->
     <div id="layoutSidenav">
@@ -86,7 +86,7 @@
                         </div>
 
 
-                      <!-- our Partners section  starts-->
+                        <!-- our Partners section  starts-->
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages"
                             aria-expanded="false" aria-controls="collapsePages">
                             <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
@@ -101,9 +101,13 @@
                             </nav>
                         </div>
 
-                        <!-- our Partners section  ends-->
+                        <!-- 
+                            our Partners section  ends
+                        -->
 
-                        <!-- our Mentors section -->
+                        <!-- 
+                            our Mentors section 
+                        -->
 
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePage"
                             aria-expanded="false" aria-controls="collapsePages">
@@ -136,10 +140,14 @@
                                 <a class="nav-link" href="listofevents.html">List of Events</a>
                             </nav>
                         </div>
-                        <!-- our Events section  ends-->
+                        <!-- 
+                            our Events section  ends
+                        -->
 
 
-                        <!-- our Resources section -->
+                        <!-- 
+                            our Resources section
+                         -->
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#resources"
                             aria-expanded="false" aria-controls="collapsePages">
                             <div class="sb-nav-link-icon"><i class="fa-brands fa-researchgate"></i></div>
@@ -151,40 +159,45 @@
                             <nav class="sb-sidenav-menu-nested nav">
                                 <a class="nav-link" href="createpost.html">Create Post</a>
                                 <a class="nav-link" href="listofpost.html">List of Post</a>
-                
-                                <!-- <a class="nav-link" href="layout-sidenav-light.html">List of Post</a> -->
                             </nav>
                         </div>
-                        <!-- our Resources section  ends-->
-                        
+                        <!--------------------------------
+                            our Resources section 
+                         ends
+                        ----------------------------------------->
 
-                        <!-- our podcast section -->
+
+                        <!----------------------------------------------
+                            our podcast section 
+                        ------------------------------------------------>
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#podcast"
                             aria-expanded="false" aria-controls="collapsePages">
-                            <div class="sb-nav-link-icon"><i class="fa-brands fa-researchgate"></i></div>
-                            Pod Cast 
+                            <div class="sb-nav-link-icon"><i class="fa fa-podcast"></i></div>
+                            Pod Cast
                             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
                         <div class="collapse" id="podcast" aria-labelledby="headingTwo"
                             data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
                                 <a class="nav-link" href="podcast.html">Create PodCast</a>
-                       
-                                <!-- <a class="nav-link" href="layout-sidenav-light.html">List of Post</a> -->
+
+
                             </nav>
                         </div>
-                        <!-- our podcast section  ends-->
+                        <!-- 
+                            our podcast section  ends
+                        -->
 
                     </div>
                 </div>
                 <div class="sb-sidenav-footer">
                     <div class="small">Logged in as:</div>
-                  Administrator
+                    Administrator
                 </div>
             </nav>
         </div>
 
-    <!----------------------------------------------------------------
+        <!----------------------------------------------------------------
                      SideNav ENDS  here
     ----------------------------------------------------------------->
 
@@ -196,56 +209,74 @@
                         <li class="breadcrumb-item active">Create Podcast</li>
                     </ol>
                     <div class="row">
+                        <div class="row justify-content-center align-item-center d-flex">
+                            <div class="col-xl-10 col-md-6 card p-4 bg-light">
 
-                           <!-- create podcast container start  -->
-                    <div class="row justify-content-center align-item-center d-flex">
-                        <div class="col-xl-10 col-md-6 card p-4 bg-light" >
-                                <form  style=" display:flex; gap:0.8rem; flex-direction:column" >
+                                <!-----------------------------------
+                                    Podcast forms starts Here
+                                ---------------------------------------- -->
+
+                                <form style=" display:flex; gap:0.8rem; flex-direction:column">
 
                                     <div class="mb-3">
                                         <label for="formFile" class="form-label">PodCast Image</label>
                                         <input class="form-control" type="file" id="formFile">
-                                      </div>
+                                    </div>
 
                                     <div class="mb-1">
                                         <label for="formFile" class="form-label">PodCast Title </label>
-                                        <input class="form-control" type="text" id="eventtitle" placeholder="Enter PodCast Title">
-                                      </div>
-                                      <div class="mb-3">
-                                        <label for="exampleFormControlTextarea1" class="form-label">PodCast Discription</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                     </div>
+                                        <input class="form-control" type="text" id="eventtitle"
+                                            placeholder="Enter PodCast Title">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label">PodCast
+                                            Discription</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                                            rows="3"></textarea>
+                                    </div>
 
-                                     <div class="row g-2">
+                                    <div class="row g-2">
                                         <div class="col-md">
-                                          <div class="form-floating">
-                                            <input type="email" class="form-control" id="floatingInputGrid" placeholder="Enter  url" value="">
-                                            <label for="floatingInputGrid">PodCast URL Link </label>
-                                          </div>
+                                            <div class="form-floating">
+                                                <input type="email" class="form-control" id="floatingInputGrid"
+                                                    placeholder="Enter  url" value="">
+                                                <label for="floatingInputGrid">PodCast URL Link </label>
+                                            </div>
                                         </div>
                                         <div class="col-md">
-                                          <div class="form-floating">
-                                            <select class="form-select" id="floatingSelectGrid">
-                                              <option selected>Open this select menu</option>
-                                              <option value="1">One</option>
-                                              <option value="2">Two</option>
-                                              <option value="3">Three</option>
-                                            </select>
-                                            <label for="floatingSelectGrid">Works with selects</label>
-                                          </div>
+                                            <div class="form-floating">
+                                                <select class="form-select" id="floatingSelectGrid">
+                                                    <option selected>Open this select menu</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                                <label for="floatingSelectGrid">Works with selects</label>
+                                            </div>
                                         </div>
-                                      </div>
-                                 
+                                    </div>
+
                                     <button type="submit" class="btn btn-primary pb-2 bg-success">Add Podcast</button>
-                             </form>
-                        </div>
-                    </div>
+                                </form>
 
-                     <!-- create podcast container end  -->
+                                <!-- 
+                                    Podcast forms ends Here
+                                 -->
+                            </div>
+                        </div>
+
+                        <!---------------------------------------------------------------------
+                            create podcast container end 
+                        ----------------------------------------------------------------------->
 
                     </div>
                 </div>
             </main>
+
+            <!---------------------------------------------------------------------
+                            Footer container starts 
+                 ----------------------------------------------------------------------->
+
             <footer class="py-4 bg- mt-auto bg-dark">
                 <div class="container-fluid px-4">
                     <div class="d-flex align-items-center justify-content-between small">
@@ -258,6 +289,9 @@
                     </div>
                 </div>
             </footer>
+            <!---------------------------------------------------------------------
+                            footer ends 
+        ----------------------------------------------------------------------->
         </div>
     </div>
 
