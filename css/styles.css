@@ -11319,6 +11319,13 @@ body {
 #layoutAuthentication #layoutAuthentication_footer {
   min-width: 0;
 }
+#layoutSidenav a{
+  color:white
+}
+#layoutSidenav  nav i{
+  color:white !important;
+}
+
 
 #layoutSidenav {
   display: flex;
@@ -11412,6 +11419,53 @@ body {
 .img-error {
   max-width: 20rem;
 }
+
+/* *******************************
+ personal  styles starts here 
+ ****************************** */
+ .input-group .btn{
+  background:green !important;
+ }
+ .sb-sidenav-footer{
+  background-color: #212529 !important;
+ }
+.breadcrumb-item {
+  color:green !important;
+}
+.sb-sidenav-menu-heading{
+  color:white !important;
+}
+
+.sb-sidenav-footer{
+  color:white !important;
+ }
+#footer a{
+  color:white !important;
+}
+#navbarDropdown{
+  color:white !important;
+}
+.sb-nav-link-icon{
+  color:white !important;
+}
+.sb-sidenav-collapse-arrow{
+  color:white !important;
+}
+footer{
+  color:white !important;
+}
+
+#footer .text-muted{
+  color:white !important;
+}
+
+.text-muted{
+  color:white !important;
+}
+
+/* *******************************
+ personal  styles starts here 
+******************************** */
 
 .nav .nav-link .sb-nav-link-icon,
 .sb-sidenav-menu .nav-link .sb-nav-link-icon {

@@ -17,7 +17,7 @@
 
 
     <!-- Navbar starts Here  -->
-    <nav class="sb-topnav navbar navbar-expand navbar-dark " style="background-color: #85bf44;">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
         <!-- Navbar Brand-->
         <a class="navbar-brand ps-3" href="index.html">Founder Institute, Inc. </a>
         <!-- Sidebar Toggle-->
@@ -145,29 +145,34 @@
                             <nav class="sb-sidenav-menu-nested nav">
                                 <a class="nav-link" href="createpost.html">Create Post</a>
                                 <a class="nav-link" href="listofpost.html">List of Post</a>
-                                <a class="nav-link" href="podcast.html">PodCast</a>
+                                
                                 <!-- <a class="nav-link" href="layout-sidenav-light.html">List of Post</a> -->
                             </nav>
                         </div>
 
                         <!-- our Resources section  ends-->
 
+                           <!-- our podcast section -->
+                           <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#podcast"
+                           aria-expanded="false" aria-controls="collapsePages">
+                           <div class="sb-nav-link-icon"><i class="fa-brands fa-researchgate"></i></div>
+                           Pod Cast 
+                           <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                       </a>
+                       <div class="collapse" id="podcast" aria-labelledby="headingTwo"
+                           data-bs-parent="#sidenavAccordion">
+                           <nav class="sb-sidenav-menu-nested nav">
+                               <a class="nav-link" href="podcast.html">Create PodCast</a>
+                               
+                               <!-- <a class="nav-link" href="layout-sidenav-light.html">List of Post</a> -->
+                           </nav>
+                       </div>
+                       <!-- our podcast section  ends-->
 
 
-
-                        <!--  -->
-                        <!-- <div class="sb-sidenav-menu-heading">Addons</div>
-                        <a class="nav-link" href="charts.html">
-                            <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                            Charts
-                        </a>
-                        <a class="nav-link" href="tables.html">
-                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                            Tables
-                        </a> -->
                     </div>
                 </div>
-                <div class="sb-sidenav-footer" style="background:#326f36">
+                <div class="sb-sidenav-footer bg-dark">
                     <div class="small">Logged in as:</div>
                     Start Bootstrap
                 </div>
@@ -176,9 +181,9 @@
         <div id="layoutSidenav_content">
             <main>
                 <div class="container-fluid px-4">
-                    <h1 class="mt-4">Event</h1>
+                    <h1 class="mt-4">Resources</h1>
                     <ol class="breadcrumb mb-4">
-                        <li class="breadcrumb-item active">Create Event</li>
+                        <li class="breadcrumb-item active">Create Post</li>
                     </ol>
 
                     <!-- create post container start  -->
@@ -186,29 +191,21 @@
                         <div class="col-xl-10 col-md-6 card p-4 bg-light" >
                                 <form  style=" display:flex; gap:0.8rem; flex-direction:column" >
                                     <div class="mb-1">
-                                        <label for="formFile" class="form-label">Event Title </label>
-                                        <input class="form-control" type="text" id="eventtitle" placeholder="Enter title of the event">
+                                        <label for="formFile" class="form-label">Post Title </label>
+                                        <input class="form-control" type="text" id="eventtitle" placeholder="Enter Post title ">
                                       </div>
                                       <div class="mb-3">
-                                        <label for="exampleFormControlTextarea1" class="form-label">Short Discription</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                     </div>
-                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                        <label class="form-check-label" for="flexCheckDefault">
-                                            Show short description on event banner
-                                        </label>
+                                        <label for="formFile" class="form-label">PodCast Image</label>
+                                        <input class="form-control" type="file" id="formFile">
                                       </div>
+                                    
+                                   
                                     <div class="mb-3">
-                                      <label for="exampleInputPassword1" class="form-label">Speakers</label>
-                                      <input type="password" class="form-control" id="exampleInputPassword1">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="exampleFormControlTextarea1" class="form-label">Event description</label>
+                                        <label for="exampleFormControlTextarea1" class="form-label">Enter Post Here</label>
                                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                       </div>
                                  
-                                    <button type="submit" class="btn btn-primary pb-2 bg-success">Create Event</button>
+                                    <button type="submit" class="btn btn-primary pb-2 bg-success">Create Post</button>
                              </form>
                         </div>
                     </div>

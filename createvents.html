@@ -17,18 +17,18 @@
 
 
     <!-- Navbar starts Here  -->
-    <nav class="sb-topnav navbar navbar-expand navbar-dark " style="background-color: #85bf44;">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark ">
         <!-- Navbar Brand-->
-        <a class="navbar-brand ps-3" href="index.html">Founder Institute, Inc. </a>
+        <a class="navbar-brand ps-3 text-uppercase" href="index.html">Founder's Institute</a>
         <!-- Sidebar Toggle-->
         <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i
-                class="fas fa-bars"></i></button>
+                class="fas fa-bars text-white"></i></button>
         <!-- Navbar Search-->
         <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
-            <div class="input-group">
+            <div class="input-group ">
                 <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..."
-                    aria-describedby="btnNavbarSearch" />
-                <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i
+                    aria-describedby="btnNavbarSearch " />
+                <button class="btn btn-success" id="btnNavbarSearch" type="button"><i
                         class="fas fa-search"></i></button>
             </div>
         </form>
@@ -58,18 +58,18 @@
             <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion" style="background-color: #326f36; ">
                 <div class="sb-sidenav-menu">
                     <div class="nav">
-                        <div class="sb-sidenav-menu-heading">Core</div>
+                        <div class="sb-sidenav-menu-heading  text-white">Core</div>
                         <a class="nav-link" href="index.html">
-                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt  text-white"></i></div>
                             Dashboard
                         </a>
 
                         <!-- founders  -->
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
                             data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
-                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-columns text-white"></i></div>
                             Founders
-                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down  text-white"></i></div>
                         </a>
                         <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne"
                             data-bs-parent="#sidenavAccordion">
@@ -83,7 +83,7 @@
                       <!-- our Partners section  starts-->
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages"
                             aria-expanded="false" aria-controls="collapsePages">
-                            <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-book-open text-white"></i></div>
                             Our Partners
                             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
@@ -154,20 +154,25 @@
 
 
 
-
-                        <!--  -->
-                        <!-- <div class="sb-sidenav-menu-heading">Addons</div>
-                        <a class="nav-link" href="charts.html">
-                            <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                            Charts
-                        </a>
-                        <a class="nav-link" href="tables.html">
-                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                            Tables
-                        </a> -->
+   <!-- our podcast section -->
+   <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#podcast"
+   aria-expanded="false" aria-controls="collapsePages">
+   <div class="sb-nav-link-icon"><i class="fa-brands fa-researchgate"></i></div>
+   Pod Cast 
+   <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+</a>
+<div class="collapse" id="podcast" aria-labelledby="headingTwo"
+   data-bs-parent="#sidenavAccordion">
+   <nav class="sb-sidenav-menu-nested nav">
+       <a class="nav-link" href="createpost.html">Create PodCat</a>
+       <a class="nav-link" href="podcast.html">PodCast</a>
+       <!-- <a class="nav-link" href="layout-sidenav-light.html">List of Post</a> -->
+   </nav>
+</div>
+<!-- our podcast section  ends-->
                     </div>
                 </div>
-                <div class="sb-sidenav-footer" style="background:#326f36">
+                <div class="sb-sidenav-footer bg-dark">
                     <div class="small">Logged in as:</div>
                     Start Bootstrap
                 </div>
@@ -220,7 +225,7 @@
             </main>
             <footer class="py-4 bg- mt-auto bg-dark" >
                 <div class="container-fluid px-4">
-                    <div class="d-flex align-items-center justify-content-between small">
+                    <div class="d-flex align-items-center justify-content-between small" id="footer">
                         <div class="text-muted">Copyright &copy; Your Website 2022</div>
                         <div>
                             <a href="#">Privacy Policy</a>

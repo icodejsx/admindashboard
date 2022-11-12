@@ -16,19 +16,21 @@
 <body class="sb-nav-fixed">
 
 
-    <!-- Navbar starts Here  -->
-    <nav class="sb-topnav navbar navbar-expand navbar-dark " style="background-color: #85bf44;">
+    <!----------------------------------------------------------
+        Navbar starts Here 
+    ------------------------------------------------->
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
         <!-- Navbar Brand-->
-        <a class="navbar-brand ps-3" href="index.html">Founder Institute, Inc. </a>
+        <a class="navbar-brand ps-3" href="index.html">FOUNDERS INSTITUTE </a>
         <!-- Sidebar Toggle-->
         <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i
-                class="fas fa-bars"></i></button>
+                class="fas fa-bars text-white"></i></button>
         <!-- Navbar Search-->
         <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
             <div class="input-group">
                 <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..."
                     aria-describedby="btnNavbarSearch" />
-                <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i
+                <button class="btn btn-success" id="btnNavbarSearch" type="button"><i
                         class="fas fa-search"></i></button>
             </div>
         </form>
@@ -47,12 +49,16 @@
                 </ul>
             </li>
         </ul>
-    </nav>
-    <!-- Navbar  Here  -->
+    </nav> 
+    <!----------------------------------------------------------
+        Navbar ends Here 
+    ------------------------------------------------->
 
 
-
-    <!-- SideNav Starts here -->
+    
+       <!----------------------------------------------------------------
+                     SideNav Starts here
+    ----------------------------------------------------------------->
     <div id="layoutSidenav">
         <div id="layoutSidenav_nav">
             <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion" style="background-color: #326f36; ">
@@ -83,7 +89,7 @@
                       <!-- our Partners section  starts-->
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages"
                             aria-expanded="false" aria-controls="collapsePages">
-                            <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
                             Our Partners
                             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
@@ -101,7 +107,7 @@
 
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePage"
                             aria-expanded="false" aria-controls="collapsePages">
-                            <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-male"></i></div>
                             Our Mentors
                             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
@@ -119,7 +125,7 @@
 
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#events"
                             aria-expanded="false" aria-controls="collapsePages">
-                            <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
                             Events Creation
                             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
@@ -136,7 +142,7 @@
                         <!-- our Resources section -->
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#resources"
                             aria-expanded="false" aria-controls="collapsePages">
-                            <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fa-brands fa-researchgate"></i></div>
                             Resources
                             <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
@@ -145,105 +151,102 @@
                             <nav class="sb-sidenav-menu-nested nav">
                                 <a class="nav-link" href="createpost.html">Create Post</a>
                                 <a class="nav-link" href="listofpost.html">List of Post</a>
-                                <a class="nav-link" href="podcast.html">PodCast</a>
+                
                                 <!-- <a class="nav-link" href="layout-sidenav-light.html">List of Post</a> -->
                             </nav>
                         </div>
-
                         <!-- our Resources section  ends-->
+                        
 
-
-
-
-                        <!--  -->
-                        <!-- <div class="sb-sidenav-menu-heading">Addons</div>
-                        <a class="nav-link" href="charts.html">
-                            <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                            Charts
+                        <!-- our podcast section -->
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#podcast"
+                            aria-expanded="false" aria-controls="collapsePages">
+                            <div class="sb-nav-link-icon"><i class="fa-brands fa-researchgate"></i></div>
+                            Pod Cast 
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
-                        <a class="nav-link" href="tables.html">
-                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                            Tables
-                        </a> -->
+                        <div class="collapse" id="podcast" aria-labelledby="headingTwo"
+                            data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="podcast.html">Create PodCast</a>
+                       
+                                <!-- <a class="nav-link" href="layout-sidenav-light.html">List of Post</a> -->
+                            </nav>
+                        </div>
+                        <!-- our podcast section  ends-->
+
                     </div>
                 </div>
-                <div class="sb-sidenav-footer" style="background:#326f36">
+                <div class="sb-sidenav-footer">
                     <div class="small">Logged in as:</div>
-                    Start Bootstrap
+                  Administrator
                 </div>
             </nav>
         </div>
+
+    <!----------------------------------------------------------------
+                     SideNav ENDS  here
+    ----------------------------------------------------------------->
+
         <div id="layoutSidenav_content">
             <main>
                 <div class="container-fluid px-4">
-                    <h1 class="mt-4">Dashboard</h1>
+                    <h1 class="mt-4">Pod Cast</h1>
                     <ol class="breadcrumb mb-4">
-                        <li class="breadcrumb-item active">Dashboard</li>
+                        <li class="breadcrumb-item active">Create Podcast</li>
                     </ol>
                     <div class="row">
-                        <div class="col-xl-3 col-md-6">
-                            <div class="card bg-primary text-white mb-4">
-                                <div class="card-body">Primary Card</div>
-                                <div class="card-footer d-flex align-items-center justify-content-between">
-                                    <a class="small text-white stretched-link" href="#">View Details</a>
-                                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6">
-                            <div class="card bg-warning text-white mb-4">
-                                <div class="card-body">Warning Card</div>
-                                <div class="card-footer d-flex align-items-center justify-content-between">
-                                    <a class="small text-white stretched-link" href="#">View Details</a>
-                                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6">
-                            <div class="card bg-success text-white mb-4">
-                                <div class="card-body">Success Card</div>
-                                <div class="card-footer d-flex align-items-center justify-content-between">
-                                    <a class="small text-white stretched-link" href="#">View Details</a>
-                                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6">
-                            <div class="card bg-danger text-white mb-4">
-                                <div class="card-body">Danger Card</div>
-                                <div class="card-footer d-flex align-items-center justify-content-between">
-                                    <a class="small text-white stretched-link" href="#">View Details</a>
-                                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-6">
-                            <div class="card mb-4">
-                                <div class="card-header">
-                                    <i class="fas fa-chart-area me-1"></i>
-                                    Area Chart Example
-                                </div>
-                                <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6">
-                            <div class="card mb-4">
-                                <div class="card-header">
-                                    <i class="fas fa-chart-bar me-1"></i>
-                                    Bar Chart Example
-                                </div>
-                                <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
-                            </div>
+
+                           <!-- create podcast container start  -->
+                    <div class="row justify-content-center align-item-center d-flex">
+                        <div class="col-xl-10 col-md-6 card p-4 bg-light" >
+                                <form  style=" display:flex; gap:0.8rem; flex-direction:column" >
+
+                                    <div class="mb-3">
+                                        <label for="formFile" class="form-label">PodCast Image</label>
+                                        <input class="form-control" type="file" id="formFile">
+                                      </div>
+
+                                    <div class="mb-1">
+                                        <label for="formFile" class="form-label">PodCast Title </label>
+                                        <input class="form-control" type="text" id="eventtitle" placeholder="Enter PodCast Title">
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label">PodCast Discription</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                     </div>
+
+                                     <div class="row g-2">
+                                        <div class="col-md">
+                                          <div class="form-floating">
+                                            <input type="email" class="form-control" id="floatingInputGrid" placeholder="Enter  url" value="">
+                                            <label for="floatingInputGrid">PodCast URL Link </label>
+                                          </div>
+                                        </div>
+                                        <div class="col-md">
+                                          <div class="form-floating">
+                                            <select class="form-select" id="floatingSelectGrid">
+                                              <option selected>Open this select menu</option>
+                                              <option value="1">One</option>
+                                              <option value="2">Two</option>
+                                              <option value="3">Three</option>
+                                            </select>
+                                            <label for="floatingSelectGrid">Works with selects</label>
+                                          </div>
+                                        </div>
+                                      </div>
+                                 
+                                    <button type="submit" class="btn btn-primary pb-2 bg-success">Add Podcast</button>
+                             </form>
                         </div>
                     </div>
 
+                     <!-- create podcast container end  -->
 
-
+                    </div>
                 </div>
             </main>
-            <footer class="py-4 bg- mt-auto" style="background:#85bf44;">
+            <footer class="py-4 bg- mt-auto bg-dark">
                 <div class="container-fluid px-4">
                     <div class="d-flex align-items-center justify-content-between small">
                         <div class="text-muted">Copyright &copy; Your Website 2022</div>
@@ -257,8 +260,6 @@
             </footer>
         </div>
     </div>
-
-    <!-- SideNav ends here -->
 
 
 
